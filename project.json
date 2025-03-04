@@ -1,0 +1,84 @@
+{
+  "name": "hello",
+  "description": "Blank Process",
+  "main": "Sequence.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.9.5]",
+    "UiPath.Mail.Activities": "[1.9.5]",
+    "UiPath.System.Activities": "[20.10.4]",
+    "UiPath.UIAutomation.Activities": "[20.10.9]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.7.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "06ef9b81-e764-4604-92b5-97ebdc67ed8d",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "ggt.xaml",
+      "uniqueId": "d69259e4-53fb-4c09-9c9f-1486f517bbc4",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Sequence.xaml",
+      "uniqueId": "ea6389f4-f195-4e22-bcc2-a01c8b24dcea",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Sequence1.xaml",
+      "uniqueId": "d5c4c8d5-fb1e-4f6b-9e8c-4daeac537c71",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Sequence2.xaml",
+      "uniqueId": "0f20d1d9-efe4-483f-8304-8c69d3eef9cc",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "product.xaml",
+      "uniqueId": "0ff7bc0d-fb3a-4e7c-bf41-1d2dfb7dfa16",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}
